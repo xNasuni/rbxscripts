@@ -45,10 +45,10 @@ function draw(p1, p2, player, properties)
 	elseif (determineRole(player) == 'Sheriff') then
 	    line.Color = Color3.fromRGB(85, 85, 255)
 	elseif (determineRole(player) == 'Friend') then
-        line.Color = Color3.fromRGB(255, 175, 255)
+            line.Color = Color3.fromRGB(255, 175, 255)
 	elseif (determineRole(player) == 'None') then
-        line.Color = Color3.fromRGB(255, 255, 255)
-    end
+            line.Color = Color3.fromRGB(255, 255, 255)
+    	end
 	
 	return line
 end
